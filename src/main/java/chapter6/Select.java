@@ -27,7 +27,7 @@ public class Select extends HttpServlet {
 		Page.header(out);
 		out.println("<p>"+count+"個の商品をカートに入れましたよん</p>");
 		out.println("<p>お支払方法を"+payment+"に設定しましたよん</p>");
-		out.println("ごかんそうありごとう");
+		out.println("ご感想ありがとうございます。");
 		out.println("<p>「"+review+"」</p>");
 		if (mail != null) {
 			out.println("<p>メールを送りまーす</p>");
